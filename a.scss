@@ -1,0 +1,40 @@
+$margin1: 15px;
+$bg-color-caption: #D5B8B8;
+
+@media (min-width: 500px){
+  h1::before {
+    content: "What Donald Trump likes to do";
+  }
+  p {
+    font-size: 30px;
+    background-color: $bg-color-caption;
+  }
+}
+@media (max-width: 499px){
+  h1::before{
+    content: "Trump's Hobbies";
+  }
+  p {
+    font-size: 15px;
+    background-color: $bg-color-caption;
+  }
+}
+
+#title {
+  text-align: center;
+  margin: $margin1;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel-item {
+  margin: $margin1;
+  width: 100%;
+}
+
+.btn-outline-secondary {
+  margin: $margin1;
+}

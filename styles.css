@@ -1,0 +1,48 @@
+@media (min-width: 500px){
+  h1::before {
+    content: "Donald Trump's Language Use";
+  }
+}
+@media (max-width: 499px){
+  h1::before{
+    content: "Trump's Language";
+  }
+}
+
+#trump {
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#title {
+  text-align: center;
+  margin: 15px;
+}
+
+table {
+  font-size: 100%;
+  margin: 10px auto;
+  padding: 3px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+td, th {
+  border: 1px solid black;
+}
+
+#ref {
+  margin: 10px;
+  float: right;
+}
+
+.btn-outline-secondary {
+  margin: 15px;
+}
